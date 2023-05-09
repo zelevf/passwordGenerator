@@ -1,0 +1,123 @@
+@media (max-width: 540px) {
+
+    .header {
+        padding: 3vw 5vw;  
+    
+        .logoContainer {
+            margin: auto 0vw;
+            padding: 0vw;
+    
+            .logoImage {
+                height: 30px;
+            }
+        }
+    
+        .menuContainer {
+            z-index: 4;
+            margin: 13vw 0vw 0vw 0vw;
+            padding: 0vw;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            width: 100vw;
+
+            .menuOptions {
+                display: none;
+                flex-direction: column;
+                justify-content: flex-start;
+                background: #ffffff;
+                opacity: 1;
+                padding: 0vw;
+                height: 360vh;
+    
+                .menu {
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    display: flex;
+                    margin: 0vw;
+                    left: 0;
+                
+                    .menuItem {
+                        font-size: 17px;
+                        font-weight: 500;
+                        flex-direction: column;
+                        display: flex;
+                        margin: 5vw auto;
+                    }
+                }
+
+                .socialNetworkMenu {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+    
+                    .socialNetworkLink {
+    
+                        .socialNetworkItem {
+                            width: 9vw;
+                            margin: 10vw 5vw;
+                        }
+                    }
+                }
+            }
+
+            .menuOptionsActive {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex;
+                width: 92vw;
+                top: 0;
+                left: 0;
+                margin-top: 12vw;
+                margin-left: 0vw;
+                opacity: 1;
+            }
+
+
+        }
+    
+
+        .barsMenu {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            flex-direction: column;
+            margin: 0vw;
+            justify-content: space-between;
+            cursor: pointer;
+    
+            .allBars {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 2px;
+                background: #363636;
+                transition: all 600ms;
+            }
+    
+            .lineBar1active {
+                rotate: (45deg);
+                width: 135%;
+                transform-origin: 0px 100%;
+                margin-top: -.5px;
+            }
+    
+            .lineBar2active {
+                margin-left: -30px;
+                opacity: 0;
+            }
+    
+            .lineBar3active {
+                rotate: (-45deg);
+                transform-origin: 0px 100%;
+                margin-left: 1.5px;
+                width: 135%;
+            }
+        }
+    }
+}
+
+
+

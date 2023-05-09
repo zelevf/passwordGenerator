@@ -1,0 +1,42 @@
+.heroContainer {
+  display: flex;
+  margin: 0vw;
+  padding: 0vw;
+  margin-top: 4vw;
+  overflow: hidden;
+  justify-content: space-between;
+}
+.heroContainer .infoHero {
+  display: flex;
+  flex-direction: column;
+  margin: auto 4vw auto 12vw;
+}
+.heroContainer .infoHero .heroTitle {
+  font-size: 76px;
+  font-weight: 700;
+  margin: 0vw;
+  padding: 0vw;
+  color: #34313c;
+  line-height: 1.2;
+  letter-spacing: 0.05vw;
+}
+.heroContainer .infoHero .heroInfo {
+  color: #a09fa4;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0vw;
+  padding: 0vw;
+}
+.heroContainer .infoHero .loginOptions {
+  width: 13vw;
+  display: flex;
+  justify-content: center;
+  padding: 1vw 0vw;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 30px;
+}
+.heroContainer .imageHeroContainer .heroImage {
+  height: 34vw;
+  margin-right: -8vw;
+}/*# sourceMappingURL=heroContainer.css.map */

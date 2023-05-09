@@ -1,0 +1,173 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+}
+
+body {
+  margin: 0vw;
+}
+
+.loginOptions {
+  background: hsl(180, 66%, 49%);
+  color: #ffffff;
+  border-radius: 18px;
+}
+
+.subtitleContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px 40px;
+}
+.subtitleContainer .subtitleWordContainer .subtitle {
+  font-size: 24px;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+  color: #363636;
+}
+.subtitleContainer .subtitleBar {
+  display: flex;
+  flex-direction: column;
+  margin: auto auto auto 10px;
+  height: 0.5px;
+  background: rgba(102, 102, 102, 0.4392156863);
+  width: 100%;
+}
+
+.subtitleContainerWhite {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px 40px;
+}
+.subtitleContainerWhite .subtitleWordContainer .subtitle {
+  font-size: 24px;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+  color: #363636;
+}
+.subtitleContainerWhite .subtitleBar {
+  display: flex;
+  flex-direction: column;
+  margin: auto auto auto 10px;
+  height: 0.5px;
+  background: rgba(102, 102, 102, 0.4392156863);
+  width: 100%;
+}
+
+.button {
+  border: 0.5px solid #363636;
+  padding: 1vw 2vw;
+  display: flex;
+  flex-direction: row;
+  border-radius: 0.8vw;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 14px;
+  cursor: pointer;
+  margin: auto;
+  box-shadow: -1px 10px 39px 1px rgba(0, 0, 0, 0.2);
+}
+
+.smallButton {
+  border: 0.5px solid #363636;
+  padding: 0.6vw 1.2vw;
+  display: flex;
+  flex-direction: row;
+  border-radius: 0.4vw;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 0.8vw;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  margin: auto;
+  box-shadow: -1px 10px 39px 1px rgba(0, 0, 0, 0.2);
+}
+
+.greenButton {
+  background: #19c828;
+}
+
+.darkGrayButton {
+  background: #2e2e2e;
+  color: #fcfcfc;
+  transition: 0.2s;
+}
+
+.darkGrayButton:hover {
+  background: #d4d4d4;
+  color: #2e2e2e;
+  transition: 0.2s;
+}
+
+.lightGrayButton {
+  background: #ebebeb;
+  color: #2b2b2b;
+  transition: 0.2s;
+}
+
+.lightGrayButton:hover {
+  background: #9e9e9e;
+  color: #2e2e2e;
+  transition: 0.2s;
+}
+
+.blueButton {
+  background: #3479ea;
+  color: #fcfcfc;
+  transition: 0.2s;
+}
+
+.blueButton:hover {
+  background: #0015ff;
+  color: #fcfcfc;
+  transition: 0.2s;
+}
+
+.pinkButton {
+  background: #FB2576;
+  color: #fcfcfc;
+  transition: 0.2s;
+}
+
+.pinkButton:hover {
+  background: #d20050;
+  transition: 0.2s;
+}
+
+.loginOptions {
+  background: hsl(180, 66%, 49%);
+  color: #ffffff;
+  border-radius: 18px;
+}
+
+.goDownContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5vw auto;
+}
+.goDownContainer .goDown {
+  display: flex;
+  flex-direction: row;
+  margin: 0vw auto;
+  width: 1.6vw;
+  background: none;
+  border-radius: 2vw;
+  padding: 0.5vw;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.goDownContainer .goDown:hover {
+  background: #dadada;
+  color: #000000;
+  transition: 0.2s;
+}
+
+.pinkText {
+  color: #FB2576;
+}/*# sourceMappingURL=generals.css.map */

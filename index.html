@@ -7,6 +7,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -27,10 +31,10 @@
                 <li class="menu"><a href="#" class="menuItem contactMenu">Resources</a></li>
             </ul>
         </div>
-        <div>
-            <ul class="loginOptions">
-                <li class="menu"><a href="#" class="menuItem workExperienceMenu">Login</a></li>
-                <li class="menu"><a href="/#projects" class="menuItem projectsMenu">Sign Up</a></li>
+        <div class="menuContainer">
+            <ul class="menuOptions ">
+                <li class="menu"><a href="#" class="menuItem">Login</a></li>
+                <li class="menu"><a href="#" class="menuItem loginOptions">Sign Up</a></li>
             </ul>
         </div>
         <div class="barsMenu">
@@ -40,13 +44,28 @@
         </div>
     </nav>
 
+    <div class="heroContainer">
+        <div class="infoHero">
+            <h2 class="heroTitle">More than just shorter links</h2>
+            <h5 class="heroInfo">Build your brand’s recognition and get detailed insights 
+            on how your links are performing.</h5>
+            <h4 class="loginOptions">Get Started</h4>
+        </div>
+        <div class="imageHeroContainer">
+            <img src="./images/illustration-working.svg" alt="" class="heroImage">
+        </div>
+    </div>
 
-  More than just shorter links
+    <div class="inputURLContainer">
+        <input type="text" value="Shorten a link here..." class="inputURL">
+        <h4 class="buttonURL">Shorten It!</h4>
+    </div>
 
-  Build your brand’s recognition and get detailed insights 
-  on how your links are performing.
+  
 
-  Get Started
+  
+
+  
   
   Shorten a link here...
 
