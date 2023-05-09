@@ -1,0 +1,44 @@
+.inputURLContainer {
+  display: flex;
+  flex-direction: row;
+  background: #3a3053;
+  background-image: url("../images/bg-shorten-desktop.svg");
+  background-size: cover;
+  width: 80vw;
+  margin: auto;
+  border-radius: 0.5vw;
+  padding: 1vw 4vw;
+  justify-content: space-between;
+}
+.inputURLContainer .inputURL {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-right: 2vw;
+  padding: 1.3vw;
+  height: -moz-min-content;
+  height: min-content;
+  font-size: 20px;
+  font-weight: 500;
+  width: 100%;
+  color: #a09fa4;
+  border-radius: 15px;
+}
+.inputURLContainer .buttonURL {
+  background: hsl(180, 66%, 49%);
+  color: #ffffff;
+  width: 19%;
+  display: flex;
+  justify-content: center;
+  padding: 1vw 0vw;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 15px;
+}
+.inputURLContainer .svgImage {
+  width: 100%;
+  height: auto;
+  position: 0;
+  top: 0;
+  background: #3a3053;
+}/*# sourceMappingURL=inputURLContainer.css.map */
