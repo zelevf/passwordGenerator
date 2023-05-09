@@ -9,7 +9,7 @@
 .heroContainer .infoHero {
   display: flex;
   flex-direction: column;
-  margin: auto 4vw auto 12vw;
+  margin: auto 4vw auto 10vw;
 }
 .heroContainer .infoHero .heroTitle {
   font-size: 76px;

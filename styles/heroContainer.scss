@@ -9,16 +9,13 @@
     .infoHero {
         display: flex;
         flex-direction: column;
-        margin: auto 4vw auto 12vw;
-        // margin-left: 12vw;
-        // background: red;
+        margin: auto 4vw auto 10vw;
 
         .heroTitle {
             font-size: 76px;
             font-weight: 700;
             margin: 0vw;
             padding: 0vw;
-            // background: greenyellow;
             color: #34313c;
             line-height: 1.2;
             letter-spacing: .05vw;
