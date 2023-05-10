@@ -1,0 +1,27 @@
+.boostYourLinks {
+  width: 100%;
+  margin: 0vw;
+  padding: 4vw 0vw;
+  background: #3a3053;
+  background-image: url("../images/bg-boost-desktop.svg");
+  background-size: cover;
+}
+.boostYourLinks .boostYourLinksTitle {
+  display: flex;
+  flex-direction: row;
+  margin: 0vw;
+  margin-bottom: 1.5vw;
+  justify-content: center;
+  color: #fffffa;
+  font-size: 38px;
+}
+.boostYourLinks .boostYourLinksButton {
+  width: 13vw;
+  display: flex;
+  justify-content: center;
+  padding: 1vw 0vw;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 30px;
+  margin: auto;
+}/*# sourceMappingURL=boostYourLinks.css.map */
