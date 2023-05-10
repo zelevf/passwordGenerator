@@ -14,7 +14,12 @@
   margin: 2vw 0vw;
   padding: 0vw;
 }
-.navigation .logoContainer .logoImage {
+.navigation .logoContainer .linkLogo {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.navigation .logoContainer .linkLogo .logoImage {
   height: 32px;
 }
 .navigation .menuContainer {
@@ -43,16 +48,35 @@
   display: flex;
   flex-direction: column;
   margin: auto 0vw;
-  padding: 0.6vw 1.6vw;
+  margin: 0.6vw 1.6vw;
   background: none;
   color: #363636;
+  color: #a7a6ac;
   text-decoration: none;
   transition: 0.2s;
 }
+.navigation .menuContainer .menuOptions .menu .menuItem:hover {
+  color: #363636;
+  transition: 0.2s;
+}
 .navigation .menuContainer .menuOptions .menu .loginOptions {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  margin: auto 0vw;
+  margin: 0.6vw 1.6vw;
+  text-decoration: none;
+  transition: 0.2s;
   background: hsl(180, 66%, 49%);
   color: #ffffff;
   border-radius: 18px;
+  padding: 0.6vw 1.6vw;
+}
+.navigation .menuContainer .menuOptions .menu .loginOptions:hover {
+  background: #9ce2e2;
+  transition: 0.2s;
 }
 .navigation .barsMenu {
   width: 30px;
