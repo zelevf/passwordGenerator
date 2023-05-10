@@ -1,0 +1,84 @@
+.statisticsContainer{
+    padding-top: 10vw;
+    background: #f0f1f6;
+    display: flex;
+    flex-direction: column;
+
+    .statisticsInfoContainer {
+        display: flex;
+        flex-direction: column;
+
+        .statisticsTitle {
+            display: flex;
+            flex-direction: row;
+            margin: 1vw auto;
+            color: #3c3b43;
+            font-size: 38px;
+        }
+
+        .statisticsInfo {
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+            color: #a3a3ad;
+            font-size: 18px;
+            width: 38vw;
+            font-weight: 500;
+            text-align: center;
+        }
+    }
+
+    .statisticsTilesContainer {
+        display: flex;
+        flex-direction: row;
+        margin: 10vw auto;
+
+        .statisticsTile {
+            background: #ffffff;
+            width: 24.5vw;
+            border-radius: 1vw;
+            padding-bottom: 2vw;
+            // border: 1px solid #a3a3ad;
+
+            .imageTile {
+                background-color: #3a3053;
+                padding: 1.5vw;
+                border-radius: 3vw;
+                margin-left: 2vw;
+                margin-top: -3vw;
+            }
+
+            .titleTile {
+                // margin-left: 2vw;
+                margin: 2vw 2vw 1vw 2vw;
+                font-size: 22px;
+                color: #3a393f;
+            }
+
+            .infoTile{
+                margin: 0vw 2vw;
+                font-size: 15px;
+                color: #bebdc2;
+            }
+        }
+
+        .tile1 {
+            margin-top: -3vw;
+            margin-bottom: 3vw;
+        }
+
+        .tile3 {
+            margin-top: 3vw;
+            margin-bottom: -3vw;
+        }
+
+        .tileSeparator {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            background: #1fcbcf;
+            width: 2vw;
+            height: .5vw;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+.statisticsContainer {
+  padding-top: 10vw;
+  background: #f0f1f6;
+  display: flex;
+  flex-direction: column;
+}
+.statisticsContainer .statisticsInfoContainer {
+  display: flex;
+  flex-direction: column;
+}
+.statisticsContainer .statisticsInfoContainer .statisticsTitle {
+  display: flex;
+  flex-direction: row;
+  margin: 1vw auto;
+  color: #3c3b43;
+  font-size: 38px;
+}
+.statisticsContainer .statisticsInfoContainer .statisticsInfo {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  color: #a3a3ad;
+  font-size: 18px;
+  width: 38vw;
+  font-weight: 500;
+  text-align: center;
+}
+.statisticsContainer .statisticsTilesContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 10vw auto;
+}
+.statisticsContainer .statisticsTilesContainer .statisticsTile {
+  background: #ffffff;
+  width: 24.5vw;
+  border-radius: 1vw;
+  padding-bottom: 2vw;
+}
+.statisticsContainer .statisticsTilesContainer .statisticsTile .imageTile {
+  background-color: #3a3053;
+  padding: 1.5vw;
+  border-radius: 3vw;
+  margin-left: 2vw;
+  margin-top: -3vw;
+}
+.statisticsContainer .statisticsTilesContainer .statisticsTile .titleTile {
+  margin: 2vw 2vw 1vw 2vw;
+  font-size: 22px;
+  color: #3a393f;
+}
+.statisticsContainer .statisticsTilesContainer .statisticsTile .infoTile {
+  margin: 0vw 2vw;
+  font-size: 15px;
+  color: #bebdc2;
+}
+.statisticsContainer .statisticsTilesContainer .tile1 {
+  margin-top: -3vw;
+  margin-bottom: 3vw;
+}
+.statisticsContainer .statisticsTilesContainer .tile3 {
+  margin-top: 3vw;
+  margin-bottom: -3vw;
+}
+.statisticsContainer .statisticsTilesContainer .tileSeparator {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background: #1fcbcf;
+  width: 2vw;
+  height: 0.5vw;
+}/*# sourceMappingURL=statistics.css.map */

@@ -1,11 +1,12 @@
 .inputURLContainer {
+  position: relative;
   display: flex;
   flex-direction: row;
   background: #3a3053;
   background-image: url("../images/bg-shorten-desktop.svg");
   background-size: cover;
   width: 80vw;
-  margin: auto;
+  margin: auto auto -5vw auto;
   border-radius: 0.5vw;
   padding: 1vw 4vw;
   justify-content: space-between;
