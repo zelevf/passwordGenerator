@@ -1,0 +1,35 @@
+.footer {
+  background: #232027;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding: 5vw;
+}
+.footer .footerSection {
+  display: flex;
+  flex-direction: column;
+  margin: 0vw 1vw;
+}
+.footer .footerSection .footerTitle {
+  color: #fffeff;
+  list-style: none;
+  margin: 1vw 0vw;
+  font-size: 16px;
+}
+.footer .footerSection .footerItem {
+  color: #9f9da2;
+  list-style: none;
+  margin: 0.2vw 0vw;
+  font-size: 16px;
+}
+.footer .footerSocialMedia {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  margin: 0vw 4vw;
+}
+.footer .footerSocialMedia .footerSocialMediaItem {
+  height: 22px;
+  width: 22px;
+  margin: 1vw;
+}/*# sourceMappingURL=footer.css.map */
