@@ -101,14 +101,14 @@
   padding: 1vw 4vw;
   justify-content: space-between;
 }
+.inputURLSection .linksContainer .shortenedLinksContainer .linkToShorten {
+  color: #333237;
+  font-size: 16px;
+  font-weight: 500;
+}
 .inputURLSection .linksContainer .shortenedLinksContainer .linkResult {
   display: flex;
   flex-direction: row;
-}
-.inputURLSection .linksContainer .shortenedLinksContainer .linkResult .linkToShorten {
-  color: #333237;
-  font-size: 16px;
-  font-weight: 300;
 }
 .inputURLSection .linksContainer .shortenedLinksContainer .linkResult .linkShortened {
   display: flex;

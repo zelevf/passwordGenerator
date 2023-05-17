@@ -1,0 +1,35 @@
+@media (max-width: 1080px) {
+  .statisticsContainer {
+    padding-top: 14vw;
+  }
+  .statisticsContainer .statisticsInfoContainer .statisticsTitle {
+    margin: 1vw auto;
+    font-size: 24px;
+  }
+  .statisticsContainer .statisticsInfoContainer .statisticsInfo {
+    font-size: 13px;
+    width: 56vw;
+  }
+  .statisticsContainer .statisticsTilesContainer {
+    margin: 14vw auto;
+  }
+  .statisticsContainer .statisticsTilesContainer .statisticsTile {
+    width: 27vw;
+  }
+  .statisticsContainer .statisticsTilesContainer .statisticsTile .imageTile {
+    padding: 2vw;
+    border-radius: 8vw;
+    margin-left: 1vw;
+    margin-top: -6vw;
+    scale: 0.7;
+  }
+  .statisticsContainer .statisticsTilesContainer .statisticsTile .titleTile {
+    font-size: 12px;
+  }
+  .statisticsContainer .statisticsTilesContainer .statisticsTile .infoTile {
+    font-size: 10px;
+  }
+  .statisticsContainer .statisticsTilesContainer .tileSeparator {
+    height: 1vw;
+  }
+}/*# sourceMappingURL=statistics_tablet.css.map */

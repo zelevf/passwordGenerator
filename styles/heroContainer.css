@@ -35,6 +35,11 @@
   font-weight: 600;
   border-radius: 30px;
 }
+.heroContainer .imageHeroContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
 .heroContainer .imageHeroContainer .heroImage {
   height: 34vw;
   margin-right: -8vw;

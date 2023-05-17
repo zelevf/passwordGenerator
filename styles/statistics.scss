@@ -38,7 +38,6 @@
             width: 24.5vw;
             border-radius: 1vw;
             padding-bottom: 2vw;
-            // border: 1px solid #a3a3ad;
 
             .imageTile {
                 background-color: #3a3053;
@@ -46,10 +45,10 @@
                 border-radius: 3vw;
                 margin-left: 2vw;
                 margin-top: -3vw;
+                scale: 1;
             }
 
             .titleTile {
-                // margin-left: 2vw;
                 margin: 2vw 2vw 1vw 2vw;
                 font-size: 22px;
                 color: #3a393f;

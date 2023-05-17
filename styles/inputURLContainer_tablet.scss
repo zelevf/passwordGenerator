@@ -1,0 +1,59 @@
+@media (max-width: 1080px) {
+    .inputURLSection {
+        margin: auto auto -5vw auto;
+    
+        .inputURLContainer {
+            margin-top: -6vw;
+    
+            .inputURLShorten {
+    
+                .inputURL {
+                    font-size: 12px;
+                    border-radius: 10px;
+                    border: 2px solid #3a3053;
+                }
+            
+                .buttonURL {
+                    width: 25%;
+                    padding: 1.1vw 1vw;
+                    font-size: 12px;
+                    border-radius: 8px;
+                }
+            }
+    
+            // NOTIFICACIÓN DE AGREGAR LINK 
+            .notificationLink {
+                font-size: 9px;
+            }
+        }
+    
+    
+    
+        .linksContainer {
+    
+            .shortenedLinksContainer {
+    
+                .linkToShorten {
+                    font-size: 12px;
+                }
+    
+                .linkResult {
+    
+                    .linkShortened {
+                        font-size: 12px;
+                    }
+    
+                    .copyLink {
+                        width: 9vw;
+                        font-size: 12px;
+                    }
+        
+                    .copiedLink {
+                        width: 9vw;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }    
+}

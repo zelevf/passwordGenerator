@@ -1,0 +1,20 @@
+@media (max-width: 1080px) {
+  .navigation {
+    width: 90%;
+    padding: 0.1vw 1vw;
+  }
+  .navigation .logoContainer .linkLogo .logoImage {
+    height: 18px;
+  }
+  .navigation .menuContainer .menuOptions .menu {
+    margin: auto auto auto 1vw;
+  }
+  .navigation .menuContainer .menuOptions .menu .menuItem {
+    font-size: 11px;
+    margin: 0.6vw 1.6vw;
+    color: #a7a6ac;
+  }
+  .navigation .menuContainer .menuOptions .menu .loginOptions {
+    font-size: 11px;
+  }
+}/*# sourceMappingURL=header_tablet.css.map */

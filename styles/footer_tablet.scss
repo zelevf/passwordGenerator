@@ -1,0 +1,53 @@
+@media (max-width: 1080px) {
+    .footer {
+        padding: 5vw 3vw;
+    
+        .logoFooterContainer {
+            margin: 0vw;
+            width: 80px;
+
+            .logoSVG {
+                scale: .6;
+                margin-left: -1vw;
+
+                .logoFooter {
+                    scale: .8;
+                }
+            }
+        }
+        
+        .footerInfo {  
+            justify-content: space-between;
+        
+            .footerSection {
+                margin: 0vw 3.5vw;
+                padding: 0vw;
+        
+                .footerTitle {
+                    font-size: 10px;
+                }
+        
+                .footerItem {
+                    margin: .5vw 0vw;
+                    font-size: 10px;
+                }
+            }
+        
+            .footerSocialMedia {
+                margin: 0vw 1vw;
+    
+                .socialMediaSVG {
+                    height: 14px;
+                    width: 14px;
+        
+                    .footerSocialMediaItem {
+                        scale: .6;
+                        margin: 1vw .6vw;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+}

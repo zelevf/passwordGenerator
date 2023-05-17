@@ -1,0 +1,36 @@
+@media (max-width: 1080px) {
+    .navigation {
+        width: 90%;
+        padding: .1vw 1vw;
+    
+        .logoContainer {
+    
+            .linkLogo {
+
+                .logoImage {
+                    height: 18px;
+                }
+            }
+        }
+    
+        .menuContainer {
+    
+            .menuOptions {
+    
+                .menu {
+                    margin: auto auto auto 1vw;
+                
+                    .menuItem {
+                        font-size: 11px;
+                        margin: .6vw 1.6vw;
+                        color: #a7a6ac;
+                    }
+    
+                    .loginOptions {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }   
+}

@@ -1,0 +1,12 @@
+@media (max-width: 1080px) {
+  .heroContainer .infoHero .heroTitle {
+    font-size: 30px;
+  }
+  .heroContainer .infoHero .heroInfo {
+    font-size: 14px;
+  }
+  .heroContainer .infoHero .loginOptions {
+    font-size: 11px;
+    width: 15vw;
+  }
+}/*# sourceMappingURL=heroContainer_Tablet.css.map */

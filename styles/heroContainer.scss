@@ -2,7 +2,6 @@
     display: flex;
     margin: 4vw 0vw 10vw 0vw;
     padding: 0vw;
-    // margin-top: 4vw;
     overflow: hidden;
     justify-content: space-between;
 
@@ -41,6 +40,9 @@
     }
 
     .imageHeroContainer {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
 
         .heroImage {
             height: 34vw;

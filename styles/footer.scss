@@ -8,16 +8,17 @@
     .logoFooterContainer {
         display: flex;
         flex-direction: column;
-        margin: 1vw 1vw;
+        margin: 1vw;
 
-        .logoFooter {
-            height: 32px;
-            fill: #ffffff;
-            // margin: 10vw;
+
+        .logoSVG {
+            scale: 1;
+
+            .logoFooter {
+                fill: #ffffff;
+                scale: 1;
+            }
         }
-
-
-
     }
     
     .footerInfo {
@@ -65,8 +66,7 @@
                 transition: .2s;
     
                 .footerSocialMediaItem {
-                    height: 22px;
-                    width: 22px;
+                    scale: 1;
                     margin: 1vw;
                     transition: .2s;
                 }

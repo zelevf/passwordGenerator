@@ -1,0 +1,36 @@
+@media (max-width: 1080px) {
+  .inputURLSection {
+    margin: auto auto -5vw auto;
+  }
+  .inputURLSection .inputURLContainer {
+    margin-top: -6vw;
+  }
+  .inputURLSection .inputURLContainer .inputURLShorten .inputURL {
+    font-size: 12px;
+    border-radius: 10px;
+    border: 2px solid #3a3053;
+  }
+  .inputURLSection .inputURLContainer .inputURLShorten .buttonURL {
+    width: 25%;
+    padding: 1.1vw 1vw;
+    font-size: 12px;
+    border-radius: 8px;
+  }
+  .inputURLSection .inputURLContainer .notificationLink {
+    font-size: 9px;
+  }
+  .inputURLSection .linksContainer .shortenedLinksContainer .linkToShorten {
+    font-size: 12px;
+  }
+  .inputURLSection .linksContainer .shortenedLinksContainer .linkResult .linkShortened {
+    font-size: 12px;
+  }
+  .inputURLSection .linksContainer .shortenedLinksContainer .linkResult .copyLink {
+    width: 9vw;
+    font-size: 12px;
+  }
+  .inputURLSection .linksContainer .shortenedLinksContainer .linkResult .copiedLink {
+    width: 9vw;
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=inputURLContainer_tablet.css.map */

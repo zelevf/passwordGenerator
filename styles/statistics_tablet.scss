@@ -1,0 +1,48 @@
+@media (max-width: 1080px) {
+
+    .statisticsContainer{
+        padding-top: 14vw;
+    
+        .statisticsInfoContainer {
+    
+            .statisticsTitle {
+                margin: 1vw auto;
+                font-size: 24px;
+            }
+    
+            .statisticsInfo {
+                font-size: 13px;
+                width: 56vw;
+            }
+        }
+    
+        .statisticsTilesContainer {
+            margin: 14vw auto;
+    
+            .statisticsTile {
+                width: 27vw;
+    
+                .imageTile {
+                    padding: 2vw;
+                    border-radius: 8vw;
+                    margin-left: 1vw;
+                    margin-top: -6vw;
+                    scale: .7;
+                }
+    
+                .titleTile {
+                    font-size: 12px;
+                }
+    
+                .infoTile{
+                    font-size: 10px;
+                }
+            }
+    
+    
+            .tileSeparator {
+                height: 1vw;
+            }
+        }
+    }
+}

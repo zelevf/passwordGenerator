@@ -1,0 +1,41 @@
+@media (max-width: 1080px) {
+  .footer {
+    padding: 5vw 3vw;
+  }
+  .footer .logoFooterContainer {
+    margin: 0vw;
+    width: 80px;
+  }
+  .footer .logoFooterContainer .logoSVG {
+    scale: 0.6;
+    margin-left: -1vw;
+  }
+  .footer .logoFooterContainer .logoSVG .logoFooter {
+    scale: 0.8;
+  }
+  .footer .footerInfo {
+    justify-content: space-between;
+  }
+  .footer .footerInfo .footerSection {
+    margin: 0vw 3.5vw;
+    padding: 0vw;
+  }
+  .footer .footerInfo .footerSection .footerTitle {
+    font-size: 10px;
+  }
+  .footer .footerInfo .footerSection .footerItem {
+    margin: 0.5vw 0vw;
+    font-size: 10px;
+  }
+  .footer .footerInfo .footerSocialMedia {
+    margin: 0vw 1vw;
+  }
+  .footer .footerInfo .footerSocialMedia .socialMediaSVG {
+    height: 14px;
+    width: 14px;
+  }
+  .footer .footerInfo .footerSocialMedia .socialMediaSVG .footerSocialMediaItem {
+    scale: 0.6;
+    margin: 1vw 0.6vw;
+  }
+}/*# sourceMappingURL=footer_tablet.css.map */
