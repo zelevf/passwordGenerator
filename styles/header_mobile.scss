@@ -1,90 +1,102 @@
-@media (max-width: 540px) {
-
-    .header {
-        padding: 3vw 5vw;  
+@media (max-width: 550px) {
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        padding: 10vw 0vw;
+        justify-content: space-between;
+        background: #ffffff; 
+        width: 80%;
     
         .logoContainer {
-            margin: auto 0vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin: 2vw 0vw;
             padding: 0vw;
     
-            .logoImage {
-                height: 30px;
+            .linkLogo {
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+    
+                .logoImage {
+                    height: 32px;
+                }
             }
         }
     
         .menuContainer {
-            z-index: 4;
-            margin: 13vw 0vw 0vw 0vw;
-            padding: 0vw;
-            position: absolute;
-            top: 0;
-            left: 0;
             display: flex;
-            width: 100vw;
-
+            flex-direction: row;
+            justify-content: flex-end;
+            margin: 0vw;
+            padding: 0vw;
+    
             .menuOptions {
                 display: none;
-                flex-direction: column;
-                justify-content: flex-start;
-                background: #ffffff;
-                opacity: 1;
-                padding: 0vw;
-                height: 360vh;
+                flex-direction: row;
+                justify-content: flex-end;
+                margin: .4vw 0vw;
     
                 .menu {
-                    flex-direction: row;
-                    justify-content: flex-start;
                     display: flex;
-                    margin: 0vw;
-                    left: 0;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin: auto auto auto 2vw;
                 
                     .menuItem {
-                        font-size: 17px;
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 14px;
                         font-weight: 500;
-                        flex-direction: column;
                         display: flex;
-                        margin: 5vw auto;
+                        flex-direction: column;
+                        margin: auto 0vw;
+                        margin: .6vw 1.6vw;
+                        // padding: .6vw 1.6vw;
+                        background: none;
+                        color: #363636;
+                        color: #a7a6ac;
+                        text-decoration: none;
+                        transition: .2s;
                     }
-                }
-
-                .socialNetworkMenu {
-                    position: relative;
-                    display: flex;
-                    justify-content: center;
     
-                    .socialNetworkLink {
+                    .menuItem:hover {
+                        // background: hsl(180, 66%, 49%);
+                        color: #363636;
+                        transition: .2s;
+                    }
     
-                        .socialNetworkItem {
-                            width: 9vw;
-                            margin: 10vw 5vw;
-                        }
+                    .loginOptions {
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 14px;
+                        font-weight: 500;
+                        display: flex;
+                        flex-direction: column;
+                        margin: auto 0vw;
+                        margin: .6vw 1.6vw;
+                        text-decoration: none;
+                        transition: .2s;
+                        background: hsl(180, 66%, 49%);
+                        color: #ffffff;
+                        border-radius: 18px;
+                        padding: .6vw 1.6vw;
+                    }
+    
+                    .loginOptions:hover {
+                        background: #9ce2e2;
+                        transition: .2s;
                     }
                 }
             }
-
-            .menuOptionsActive {
-                position: absolute;
-                display: flex;
-                flex-direction: column;
-                justify-content: flex;
-                width: 92vw;
-                top: 0;
-                left: 0;
-                margin-top: 12vw;
-                margin-left: 0vw;
-                opacity: 1;
-            }
-
-
         }
     
-
         .barsMenu {
             width: 30px;
             height: 30px;
             display: flex;
             flex-direction: column;
-            margin: 0vw;
+            margin: auto 0vw;
             justify-content: space-between;
             cursor: pointer;
     
@@ -92,8 +104,8 @@
                 display: flex;
                 flex-direction: column;
                 width: 100%;
-                height: 2px;
-                background: #363636;
+                height: 3px;
+                background: #9d9ba6;
                 transition: all 600ms;
             }
     
@@ -116,7 +128,7 @@
                 width: 135%;
             }
         }
-    }
+    }    
 }
 
 

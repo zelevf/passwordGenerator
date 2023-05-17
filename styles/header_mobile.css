@@ -1,96 +1,112 @@
-@media (max-width: 540px) {
-  .header {
-    padding: 3vw 5vw;
-  }
-  .header .logoContainer {
-    margin: auto 0vw;
-    padding: 0vw;
-  }
-  .header .logoContainer .logoImage {
-    height: 30px;
-  }
-  .header .menuContainer {
-    z-index: 4;
-    margin: 13vw 0vw 0vw 0vw;
-    padding: 0vw;
-    position: absolute;
-    top: 0;
-    left: 0;
+@media (max-width: 550px) {
+  .navigation {
     display: flex;
-    width: 100vw;
-  }
-  .header .menuContainer .menuOptions {
-    display: none;
-    flex-direction: column;
-    justify-content: flex-start;
-    background: #ffffff;
-    opacity: 1;
-    padding: 0vw;
-    height: 360vh;
-  }
-  .header .menuContainer .menuOptions .menu {
     flex-direction: row;
+    margin: auto;
+    padding: 10vw 0vw;
+    justify-content: space-between;
+    background: #ffffff;
+    width: 80%;
+  }
+  .navigation .logoContainer {
+    display: flex;
+    flex-direction: column;
     justify-content: flex-start;
+    margin: 2vw 0vw;
+    padding: 0vw;
+  }
+  .navigation .logoContainer .linkLogo {
     display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .navigation .logoContainer .linkLogo .logoImage {
+    height: 32px;
+  }
+  .navigation .menuContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     margin: 0vw;
-    left: 0;
+    padding: 0vw;
   }
-  .header .menuContainer .menuOptions .menu .menuItem {
-    font-size: 17px;
+  .navigation .menuContainer .menuOptions {
+    display: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0.4vw 0vw;
+  }
+  .navigation .menuContainer .menuOptions .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto auto auto 2vw;
+  }
+  .navigation .menuContainer .menuOptions .menu .menuItem {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
     font-weight: 500;
-    flex-direction: column;
-    display: flex;
-    margin: 5vw auto;
-  }
-  .header .menuContainer .menuOptions .socialNetworkMenu {
-    position: relative;
-    display: flex;
-    justify-content: center;
-  }
-  .header .menuContainer .menuOptions .socialNetworkMenu .socialNetworkLink .socialNetworkItem {
-    width: 9vw;
-    margin: 10vw 5vw;
-  }
-  .header .menuContainer .menuOptionsActive {
-    position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: flex;
-    width: 92vw;
-    top: 0;
-    left: 0;
-    margin-top: 12vw;
-    margin-left: 0vw;
-    opacity: 1;
+    margin: auto 0vw;
+    margin: 0.6vw 1.6vw;
+    background: none;
+    color: #363636;
+    color: #a7a6ac;
+    text-decoration: none;
+    transition: 0.2s;
   }
-  .header .barsMenu {
+  .navigation .menuContainer .menuOptions .menu .menuItem:hover {
+    color: #363636;
+    transition: 0.2s;
+  }
+  .navigation .menuContainer .menuOptions .menu .loginOptions {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0vw;
+    margin: 0.6vw 1.6vw;
+    text-decoration: none;
+    transition: 0.2s;
+    background: hsl(180, 66%, 49%);
+    color: #ffffff;
+    border-radius: 18px;
+    padding: 0.6vw 1.6vw;
+  }
+  .navigation .menuContainer .menuOptions .menu .loginOptions:hover {
+    background: #9ce2e2;
+    transition: 0.2s;
+  }
+  .navigation .barsMenu {
     width: 30px;
     height: 30px;
     display: flex;
     flex-direction: column;
-    margin: 0vw;
+    margin: auto 0vw;
     justify-content: space-between;
     cursor: pointer;
   }
-  .header .barsMenu .allBars {
+  .navigation .barsMenu .allBars {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 2px;
-    background: #363636;
+    height: 3px;
+    background: #9d9ba6;
     transition: all 600ms;
   }
-  .header .barsMenu .lineBar1active {
+  .navigation .barsMenu .lineBar1active {
     rotate: 45deg;
     width: 135%;
     transform-origin: 0px 100%;
     margin-top: -0.5px;
   }
-  .header .barsMenu .lineBar2active {
+  .navigation .barsMenu .lineBar2active {
     margin-left: -30px;
     opacity: 0;
   }
-  .header .barsMenu .lineBar3active {
+  .navigation .barsMenu .lineBar3active {
     rotate: -45deg;
     transform-origin: 0px 100%;
     margin-left: 1.5px;

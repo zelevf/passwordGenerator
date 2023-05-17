@@ -1,5 +1,6 @@
 @import url(./styles/header.css);
 @import url(./styles/header_tablet.css);
+@import url(./styles/header_mobile.css);
 @import url(./styles/heroContainer.css);
 @import url(./styles/heroContainer_tablet.css);
 @import url(./styles/heroContainer_mobile.css);
