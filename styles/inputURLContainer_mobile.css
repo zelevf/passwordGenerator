@@ -1,0 +1,132 @@
+@media (max-width: 550px) {
+  .inputURLSection {
+    display: flex;
+    flex-direction: column;
+    background: #f0f1f6;
+    margin: auto auto -5vw auto;
+  }
+  .inputURLSection .inputURLContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #3a3053;
+    background-image: url("../images/bg-shorten-desktop.svg");
+    background-size: cover;
+    width: 76vw;
+    margin: auto;
+    margin-top: -5vw;
+    border-radius: 3vw;
+    padding: 6vw;
+    justify-content: space-between;
+  }
+  .inputURLSection .inputURLContainer .inputURLShorten {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0vw;
+    padding: 0vw;
+  }
+  .inputURLSection .inputURLContainer .inputURLShorten .inputURL {
+    display: flex;
+    flex-direction: column;
+    margin: 0vw;
+    padding: 4.5vw 5vw;
+    height: -moz-min-content;
+    height: min-content;
+    font-size: 16.5px;
+    font-weight: 500;
+    width: auto;
+    color: #a09fa4;
+    border-radius: 6px;
+    border: 3px solid #3a3053;
+  }
+  .inputURLSection .inputURLContainer .inputURLShorten .buttonURL {
+    background: hsl(180, 66%, 49%);
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2.5vw 0vw;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  .inputURLSection .inputURLContainer .inputURLShorten .buttonURL:hover {
+    background: #9ce2e2;
+    transition: 0.2s;
+  }
+  .inputURLSection .inputURLContainer .svgImage {
+    width: 100%;
+    height: auto;
+    position: 0;
+    top: 0;
+    background: #3a3053;
+  }
+  .inputURLSection .linksContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: auto;
+  }
+  .inputURLSection .linksContainer .shortenedLinksContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background: #ffffff;
+    width: 80vw;
+    margin: 2vw auto 0vw auto;
+    border-radius: 0.5vw;
+    padding: 1vw 4vw;
+    justify-content: space-between;
+  }
+  .inputURLSection .linksContainer .shortenedLinksContainer .linkToShorten {
+    color: #333237;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .inputURLSection .linksContainer .shortenedLinksContainer .linkResult {
+    display: flex;
+    flex-direction: row;
+  }
+  .inputURLSection .linksContainer .shortenedLinksContainer .linkResult .linkShortened {
+    display: flex;
+    flex-direction: column;
+    margin: auto 1vw;
+    color: #2bd1d1;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .inputURLSection .linksContainer .shortenedLinksContainer .linkResult .copyLink {
+    cursor: pointer;
+    color: #ffffff;
+    background: #2bd1d1;
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw;
+    width: 5vw;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.2s;
+  }
+  .inputURLSection .linksContainer .shortenedLinksContainer .linkResult .copyLink:hover {
+    background: #9ce2e2;
+    transition: 0.2s;
+  }
+  .inputURLSection .linksContainer .shortenedLinksContainer .linkResult .copiedLink {
+    color: #ffffff;
+    background: #3a3053;
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw;
+    width: 5vw;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.2s;
+  }
+}/*# sourceMappingURL=inputURLContainer_mobile.css.map */

@@ -40,14 +40,14 @@
   border-radius: 15px;
   border: 3px solid #3a3053;
 }
-.inputURLSection .inputURLContainer .inputURLShorten .inputURL {
-  border-color: #f56366;
-}
 .inputURLSection .inputURLContainer .inputURLShorten .inputURL::-moz-placeholder {
-  color: #f56366;
+  color: #a6a6a8;
 }
 .inputURLSection .inputURLContainer .inputURLShorten .inputURL::placeholder {
-  color: #f56366;
+  color: #a6a6a8;
+}
+.inputURLSection .inputURLContainer .inputURLShorten .inputURL {
+  border-color: #f56366;
 }
 .inputURLSection .inputURLContainer .inputURLShorten .buttonURL {
   background: hsl(180, 66%, 49%);

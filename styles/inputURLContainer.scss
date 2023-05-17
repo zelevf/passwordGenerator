@@ -41,6 +41,10 @@
                 border: 3px solid #3a3053;
     
             }
+
+            .inputURL::placeholder {
+                color: #a6a6a8;
+            }
     
             // BORDE CUANDO PIDE AGREGAR LINK 
             .inputURL {
@@ -48,9 +52,9 @@
             }
     
             // PLACEHOLDER CUANDO DEBES AGREGAR LINK 
-            .inputURL::placeholder {
-                color: #f56366;
-            }
+            // .inputURL::placeholder {
+            //     color: #f56366;
+            // }
         
             .buttonURL {
                 background: hsl(180, 66%, 49%);
