@@ -12,4 +12,11 @@ body {
   background: hsl(180, 66%, 49%);
   color: #ffffff;
   border-radius: 18px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.loginOptions:hover {
+  background: #9ce2e2;
+  transition: 0.2s;
 }/*# sourceMappingURL=generals.css.map */

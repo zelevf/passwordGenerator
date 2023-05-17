@@ -2,39 +2,84 @@
     background: #232027;
     display: flex;
     flex-direction: row;
-    justify-content: end;
     padding: 5vw;
+    justify-content: space-between;
 
-    .footerSection {
+    .logoFooterContainer {
         display: flex;
         flex-direction: column;
-        margin: 0vw 1vw;
+        margin: 1vw 1vw;
 
-        .footerTitle {
-            color: #fffeff;
-            list-style: none;
-            margin: 1vw 0vw;
-            font-size: 16px;
+        .logoFooter {
+            height: 32px;
+            fill: #ffffff;
+            // margin: 10vw;
         }
 
-        .footerItem {
-            color: #9f9da2;
-            list-style: none;
-            margin: .2vw 0vw;
-            font-size: 16px;
-        }
+
+
     }
-
-    .footerSocialMedia {
+    
+    .footerInfo {
         display: flex;
         flex-direction: row;
-        height: auto;
-        margin: 0vw 4vw;
+        justify-content: end;
 
-        .footerSocialMediaItem {
-            height: 22px;
-            width: 22px;
-            margin: 1vw;
+    
+        .footerSection {
+            display: flex;
+            flex-direction: column;
+            margin: 0vw 1vw;
+    
+            .footerTitle {
+                color: #fffeff;
+                list-style: none;
+                margin: 1vw 0vw;
+                font-size: 16px;
+            }
+    
+            .footerItem {
+                color: #9f9da2;
+                list-style: none;
+                margin: .2vw 0vw;
+                font-size: 16px;
+                cursor: pointer;
+                transition: .2s;
+            }
+
+            .footerItem:hover {
+                color: #22cfcd;
+                transition: .2s;
+            }
+        }
+    
+        .footerSocialMedia {
+            display: flex;
+            flex-direction: row;
+            height: auto;
+            margin: 0vw 4vw;
+
+            .socialMediaSVG {
+                margin: 1vw;
+                cursor: pointer;
+                transition: .2s;
+    
+                .footerSocialMediaItem {
+                    height: 22px;
+                    width: 22px;
+                    margin: 1vw;
+                    transition: .2s;
+                }
+            }
+
+            .socialMediaSVG:hover {   
+                transition: .2s;
+                .footerSocialMediaItem {
+                    fill: #22cfcd;
+                    transition: .2s;
+                }
+            }
         }
     }
 }
+

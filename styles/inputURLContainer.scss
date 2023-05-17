@@ -1,49 +1,178 @@
-.inputURLContainer {
-    position: relative;
+.inputURLSection {
     display: flex;
-    flex-direction: row;
-    background: #3a3053;
-    background-image: url('../images/bg-shorten-desktop.svg');
-    background-size: cover;
-    width: 80vw;
+    flex-direction: column;
+    background: #f0f1f6;
     margin: auto auto -5vw auto;
-    border-radius: .5vw;
-    padding: 1vw 4vw;
-    justify-content: space-between;
 
 
-    .inputURL {
+    .inputURLContainer {
+        position: relative;
         display: flex;
         flex-direction: column;
-        margin: auto;
-        margin-right: 2vw;
-        padding: 1.3vw;
-        height: min-content;
-        font-size: 20px;
-        font-weight: 500;
-        width: 100%;
-        color: #a09fa4;
-        border-radius: 15px;
-    }
-
-    .buttonURL {
-        background: hsl(180, 66%, 49%);
-        color: #ffffff;
-        width: 19%;
-        display: flex;
-        justify-content: center;
-        padding: 1vw 0vw;
-        font-size: 20px;
-        font-weight: 500;
-        border-radius: 15px;
-    }
-
-    .svgImage {
-        // position: relative;
-        width: 100%;
-        height: auto;
-        position: 0;
-        top: 0;
         background: #3a3053;
+        background-image: url('../images/bg-shorten-desktop.svg');
+        background-size: cover;
+        width: 80vw;
+        margin: auto;
+        margin-top: -5vw;
+        border-radius: .5vw;
+        padding: 1vw 4vw;
+        justify-content: space-between;
+
+
+        .inputURLShorten {
+            display: flex;
+            flex-direction: row;
+            // background: green;
+            width: 100%;
+            margin: 0vw;
+            padding: 0vw;
+
+            .inputURL {
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+                margin-right: 2vw;
+                padding: 1.3vw;
+                height: min-content;
+                font-size: 20px;
+                font-weight: 500;
+                width: 100%;
+                color: #a09fa4;
+                border-radius: 15px;
+                border: 3px solid #3a3053;
+    
+            }
+    
+            // BORDE CUANDO PIDE AGREGAR LINK 
+            .inputURL {
+                border-color: #f56366;
+            }
+    
+            // PLACEHOLDER CUANDO DEBES AGREGAR LINK 
+            .inputURL::placeholder {
+                color: #f56366;
+            }
+        
+            .buttonURL {
+                background: hsl(180, 66%, 49%);
+                color: #ffffff;
+                width: 19%;
+                display: flex;
+                justify-content: center;
+                padding: 1vw 0vw;
+                font-size: 20px;
+                font-weight: 500;
+                border-radius: 15px;
+                transition: .2s;
+                cursor: pointer;
+            }
+        
+            .buttonURL:hover {
+                background: #9ce2e2;
+                transition: .2s;
+            }
+        }
+    
+        .svgImage {
+            // position: relative;
+            width: 100%;
+            height: auto;
+            position: 0;
+            top: 0;
+            background: #3a3053;
+        }
+
+        // NOTIFICACIÓN DE AGREGAR LINK 
+        .notificationLink {
+            position: absolute;
+            bottom: 0;
+            margin-left: .5vw;
+            margin-bottom: 1vw;
+            color: #f56366;
+            font-size: 14px;
+            font-weight: 300;
+            font-style: italic;
+            height: auto;
+        }
+    }
+
+
+
+    .linksContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: auto;
+        // background: red;
+
+        .shortenedLinksContainer {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            background: #ffffff;
+            width: 80vw;
+            margin: 2vw auto 0vw auto;
+            border-radius: .5vw;
+            padding: 1vw 4vw;
+            justify-content: space-between;
+
+
+            .linkResult {
+                display: flex;
+                flex-direction: row;
+
+                .linkToShorten {
+                    color: #333237;
+                    font-size: 16px;
+                    font-weight: 300;
+                }
+
+                .linkShortened {
+                    display: flex;
+                    flex-direction: column;
+                    margin: auto 1vw;
+                    color: #2bd1d1;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+
+                .copyLink {
+                    cursor: pointer;
+                    color: #ffffff;
+                    background: #2bd1d1;
+                    padding: .5vw 1vw;
+                    border-radius: .5vw;
+                    width: 5vw;
+                    display: flex;
+                    margin: auto;
+                    justify-content: center;
+                    font-size: 16px;
+                    font-weight: 400;
+                    transition: .2s;
+                }
+
+                .copyLink:hover {
+                    background: #9ce2e2;
+                    transition: .2s;
+                }
+
+                .copiedLink {
+                    // cursor: pointer;
+                    color: #ffffff;
+                    background: #3a3053;
+                    padding: .5vw 1vw;
+                    border-radius: .5vw;
+                    width: 5vw;
+                    display: flex;
+                    margin: auto;
+                    justify-content: center;
+                    font-size: 16px;
+                    font-weight: 400;
+                    transition: .2s;
+                }
+            }
+        }
     }
 }
+
