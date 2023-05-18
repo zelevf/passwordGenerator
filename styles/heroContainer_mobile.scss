@@ -1,0 +1,60 @@
+@media (max-width: 1080px) {
+    .heroContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 4vw 0vw 10vw 0vw;
+        padding: 0vw;
+        overflow: hidden;
+        justify-content: space-between;
+    
+        .infoHero {
+            display: flex;
+            flex-direction: column;
+            margin: 10vw 4vw;
+    
+            .heroTitle {
+                font-size: 76px;
+                font-size: 40px;
+                font-weight: 700;
+                margin: auto;
+                padding: 0vw;
+                color: #34313c;
+                line-height: 1.2;
+                letter-spacing: .05vw;
+                text-align: center;
+            }
+    
+            .heroInfo {
+                color: #a09fa4;
+                font-size: 22px;
+                font-size: 18px;
+                font-weight: 500;
+                margin: 3vw 0vw;
+                padding: 0vw;
+                text-align: center;
+            }
+    
+            .loginOptions {
+                width: 53vw;
+                display: flex;
+                justify-content: center;
+                padding: 3.4vw 0vw;
+                font-size: 20px;
+                font-weight: 600;
+                border-radius: 30px;
+                margin: 6vw auto;
+            }
+        }
+    
+        .imageHeroContainer {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+    
+            .heroImage {
+                height: 86vw;
+                margin-left: 5vw;
+            }
+        }
+    }
+}
