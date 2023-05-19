@@ -16,13 +16,6 @@
   .statisticsContainer .statisticsTilesContainer .statisticsTile {
     width: 27vw;
   }
-  .statisticsContainer .statisticsTilesContainer .statisticsTile .imageTile {
-    padding: 2vw;
-    border-radius: 8vw;
-    margin-left: 1vw;
-    margin-top: -6vw;
-    scale: 0.7;
-  }
   .statisticsContainer .statisticsTilesContainer .statisticsTile .titleTile {
     font-size: 12px;
   }

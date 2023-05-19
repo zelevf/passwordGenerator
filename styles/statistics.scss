@@ -39,14 +39,24 @@
             border-radius: 1vw;
             padding-bottom: 2vw;
 
-            .imageTile {
+            .imageTileContainer {
                 background-color: #3a3053;
-                padding: 1.5vw;
-                border-radius: 3vw;
                 margin-left: 2vw;
                 margin-top: -3vw;
-                scale: 1;
+                width: 6vw;
+                border-radius: 3vw;
+
+                .imageTile {
+                    display: flex;
+                    flex-direction: column;
+                    margin: auto;
+                    padding: 1.5vw;
+                    height: 3vw;
+                    width: 3vw;
+                }
             }
+
+
 
             .titleTile {
                 margin: 2vw 2vw 1vw 2vw;

@@ -1,0 +1,94 @@
+@media (max-width: 550px) {
+  .statisticsContainer {
+    padding-top: 10vw;
+    background: #f0f1f6;
+    display: flex;
+    flex-direction: column;
+  }
+  .statisticsContainer .statisticsInfoContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vw;
+  }
+  .statisticsContainer .statisticsInfoContainer .statisticsTitle {
+    display: flex;
+    flex-direction: row;
+    margin: 1vw auto;
+    color: #3c3b43;
+    font-size: 27px;
+    text-align: center;
+  }
+  .statisticsContainer .statisticsInfoContainer .statisticsInfo {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    color: #a3a3ad;
+    font-size: 16px;
+    width: 78vw;
+    font-weight: 500;
+    text-align: center;
+  }
+  .statisticsContainer .statisticsTilesContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10vw auto;
+  }
+  .statisticsContainer .statisticsTilesContainer .statisticsTile {
+    background: #ffffff;
+    width: 88vw;
+    border-radius: 1vw;
+    padding-bottom: 10vw;
+  }
+  .statisticsContainer .statisticsTilesContainer .statisticsTile .imageTileContainer {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    background-color: #3a3053;
+    margin-top: -12vw;
+    width: 24vw;
+    border-radius: 12vw;
+    margin-bottom: 10vw;
+  }
+  .statisticsContainer .statisticsTilesContainer .statisticsTile .imageTileContainer .imageTile {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 7vw;
+    height: 10vw;
+    width: 10vw;
+  }
+  .statisticsContainer .statisticsTilesContainer .statisticsTile .titleTile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2vw auto;
+    font-size: 22px;
+    color: #3a393f;
+  }
+  .statisticsContainer .statisticsTilesContainer .statisticsTile .infoTile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 0vw 10vw;
+    font-size: 15px;
+    font-weight: 400;
+    color: #bebdc2;
+  }
+  .statisticsContainer .statisticsTilesContainer .tile1 {
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+  }
+  .statisticsContainer .statisticsTilesContainer .tile3 {
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+  }
+  .statisticsContainer .statisticsTilesContainer .tileSeparator {
+    display: flex;
+    flex-direction: column;
+    margin: 0vw auto;
+    background: #1fcbcf;
+    width: 2vw;
+    height: 20vw;
+  }
+}/*# sourceMappingURL=statistics_mobile.css.map */

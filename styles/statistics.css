@@ -36,13 +36,20 @@
   border-radius: 1vw;
   padding-bottom: 2vw;
 }
-.statisticsContainer .statisticsTilesContainer .statisticsTile .imageTile {
+.statisticsContainer .statisticsTilesContainer .statisticsTile .imageTileContainer {
   background-color: #3a3053;
-  padding: 1.5vw;
-  border-radius: 3vw;
   margin-left: 2vw;
   margin-top: -3vw;
-  scale: 1;
+  width: 6vw;
+  border-radius: 3vw;
+}
+.statisticsContainer .statisticsTilesContainer .statisticsTile .imageTileContainer .imageTile {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 1.5vw;
+  height: 3vw;
+  width: 3vw;
 }
 .statisticsContainer .statisticsTilesContainer .statisticsTile .titleTile {
   margin: 2vw 2vw 1vw 2vw;
