@@ -2,7 +2,7 @@
   .heroContainer {
     display: flex;
     flex-direction: column-reverse;
-    margin: 4vw 0vw 10vw 0vw;
+    margin: 4vw 0vw 30vw 0vw;
     padding: 0vw;
     overflow: hidden;
     justify-content: space-between;
