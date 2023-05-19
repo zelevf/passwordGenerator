@@ -5,25 +5,26 @@
         .inputURLContainer {
             margin-top: -6vw;
     
-            .inputURLShorten {
-    
+
+            .URLcontainer {
                 .inputURL {
                     font-size: 12px;
                     border-radius: 10px;
                     border: 2px solid #3a3053;
                 }
-            
-                .buttonURL {
-                    width: 25%;
-                    padding: 1.1vw 1vw;
-                    font-size: 12px;
-                    border-radius: 8px;
+
+                // NOTIFICACIÓN DE AGREGAR LINK 
+                .notificationLink {
+                    font-size: 9px;
                 }
+
             }
-    
-            // NOTIFICACIÓN DE AGREGAR LINK 
-            .notificationLink {
-                font-size: 9px;
+
+            .buttonURL {
+                width: 25%;
+                padding: 1.1vw 1vw;
+                font-size: 12px;
+                border-radius: 8px;
             }
         }
     

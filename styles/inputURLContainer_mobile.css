@@ -15,55 +15,62 @@
     background-size: cover;
     width: 76vw;
     margin: auto;
-    margin-top: -5vw;
+    margin-top: -30vw;
     border-radius: 3vw;
     padding: 6vw;
     justify-content: space-between;
   }
-  .inputURLSection .inputURLContainer .inputURLShorten {
+  .inputURLSection .inputURLContainer .URLcontainer {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: 0vw;
-    padding: 0vw;
   }
-  .inputURLSection .inputURLContainer .inputURLShorten .inputURL {
+  .inputURLSection .inputURLContainer .URLcontainer .inputURL {
     display: flex;
     flex-direction: column;
-    margin: 0vw;
-    padding: 4.5vw 5vw;
+    margin: auto;
+    padding: 4vw;
     height: -moz-min-content;
     height: min-content;
-    font-size: 16.5px;
+    font-size: 18px;
     font-weight: 500;
-    width: auto;
+    width: 88%;
     color: #a09fa4;
-    border-radius: 6px;
+    border-radius: 8px;
     border: 3px solid #3a3053;
   }
-  .inputURLSection .inputURLContainer .inputURLShorten .buttonURL {
+  .inputURLSection .inputURLContainer .URLcontainer .inputURL::-moz-placeholder {
+    color: #a6a6a8;
+  }
+  .inputURLSection .inputURLContainer .URLcontainer .inputURL::placeholder {
+    color: #a6a6a8;
+  }
+  .inputURLSection .inputURLContainer .URLcontainer .notificationLink {
+    position: relative;
+    margin-left: 0.5vw;
+    margin-top: 1vw;
+    color: #f56366;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    height: auto;
+  }
+  .inputURLSection .inputURLContainer .buttonURL {
     background: hsl(180, 66%, 49%);
     color: #ffffff;
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 2.5vw 0vw;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 6px;
+    padding: 3vw 0vw;
+    margin: 4vw 0vw 0vw 0vw;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
     transition: 0.2s;
     cursor: pointer;
   }
-  .inputURLSection .inputURLContainer .inputURLShorten .buttonURL:hover {
+  .inputURLSection .inputURLContainer .buttonURL:hover {
     background: #9ce2e2;
     transition: 0.2s;
-  }
-  .inputURLSection .inputURLContainer .svgImage {
-    width: 100%;
-    height: auto;
-    position: 0;
-    top: 0;
-    background: #3a3053;
   }
   .inputURLSection .linksContainer {
     display: flex;

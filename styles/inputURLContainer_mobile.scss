@@ -3,8 +3,10 @@
         display: flex;
         flex-direction: column;
         background: #f0f1f6;
-        margin: auto ;
+        margin: auto;
+        // margin-top: -100vw;
         padding: 8vw 0vw;
+        // padding-top: -10vw;
     
         .inputURLContainer {
             position: relative;
@@ -15,36 +17,110 @@
             background-size: cover;
             width: 76vw;
             margin: auto;
-            margin-top: -5vw;
+            margin-top: -30vw;
             border-radius: 3vw;
             padding: 6vw;
             justify-content: space-between;
     
     
-            .inputURLShorten {
+            // .inputURLShorten {
+            //     display: flex;
+            //     flex-direction: column;
+            //     width: 100%;
+            //     margin: 0vw;
+            //     padding: 0vw;
+    
+            //     .inputURL {
+            //         display: flex;
+            //         flex-direction: column;
+            //         margin: 0vw;
+            //         // margin-right: 2vw;
+            //         padding: 4.5vw 5vw;
+            //         height: min-content;
+            //         font-size: 16.5px;
+            //         font-weight: 500;
+            //         width: auto;
+            //         color: #a09fa4;
+            //         border-radius: 6px;
+            //         border: 3px solid #3a3053;
+        
+            //     }
+
+
+        
+            //     // BORDE CUANDO PIDE AGREGAR LINK 
+            //     // .inputURL {
+            //     //     border-color: #f56366;
+            //     // }
+        
+            //     // PLACEHOLDER CUANDO DEBES AGREGAR LINK 
+            //     // .inputURL::placeholder {
+            //     //     color: #f56366;
+            //     // }
+            
+            //     .buttonURL {
+            //         background: hsl(180, 66%, 49%);
+            //         color: #ffffff;
+            //         width: 100%;
+            //         display: flex;
+            //         justify-content: center;
+            //         padding: 2.5vw 0vw;
+            //         font-size: 18px;
+            //         font-weight: 600;
+            //         border-radius: 6px;
+            //         transition: .2s;
+            //         cursor: pointer;
+            //     }
+            
+            //     .buttonURL:hover {
+            //         background: #9ce2e2;
+            //         transition: .2s;
+            //     }
+            // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /////////////////////////////////////////////////////////
+
+
+            .URLcontainer {
                 display: flex;
                 flex-direction: column;
-                width: 100%;
-                margin: 0vw;
-                padding: 0vw;
+                // width: 100%;
     
                 .inputURL {
                     display: flex;
                     flex-direction: column;
-                    margin: 0vw;
-                    // margin-right: 2vw;
-                    padding: 4.5vw 5vw;
+                    margin: auto;
+                    // margin-left: 0vw;
+                    padding: 4vw;
                     height: min-content;
-                    font-size: 16.5px;
+                    font-size: 18px;
                     font-weight: 500;
-                    width: auto;
+                    width: 88%;
+                    // width: auto;
                     color: #a09fa4;
-                    border-radius: 6px;
+                    border-radius: 8px;
                     border: 3px solid #3a3053;
         
                 }
-
-
+        
+                .inputURL::placeholder {
+                    color: #a6a6a8;
+                }
         
                 // BORDE CUANDO PIDE AGREGAR LINK 
                 // .inputURL {
@@ -55,34 +131,68 @@
                 // .inputURL::placeholder {
                 //     color: #f56366;
                 // }
-            
-                .buttonURL {
-                    background: hsl(180, 66%, 49%);
-                    color: #ffffff;
-                    width: 100%;
-                    display: flex;
-                    justify-content: center;
-                    padding: 2.5vw 0vw;
-                    font-size: 18px;
-                    font-weight: 600;
-                    border-radius: 6px;
-                    transition: .2s;
-                    cursor: pointer;
+    
+    
+                // NOTIFICACIÓN DE AGREGAR LINK 
+                .notificationLink {
+                    position: relative;
+                    // top: 0;
+                    // bottom: 0;
+                    margin-left: .5vw;
+                    // margin-bottom: 1vw;
+                    margin-top: 1vw;
+                    color: #f56366;
+                    font-size: 12px;
+                    font-weight: 300;
+                    font-style: italic;
+                    height: auto;
                 }
-            
-                .buttonURL:hover {
-                    background: #9ce2e2;
-                    transition: .2s;
-                }
+            }
+    
+    
+            .buttonURL {
+                background: hsl(180, 66%, 49%);
+                color: #ffffff;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                padding: 3vw 0vw;
+                margin: 4vw 0vw 0vw 0vw;
+                font-size: 20px;
+                font-weight: 500;
+                border-radius: 8px;
+                transition: .2s;
+                cursor: pointer;
             }
         
-            .svgImage {
-                width: 100%;
-                height: auto;
-                position: 0;
-                top: 0;
-                background: #3a3053;
+            .buttonURL:hover {
+                background: #9ce2e2;
+                transition: .2s;
             }
+
+
+            /////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            // .svgImage {
+            //     width: 100%;
+            //     height: auto;
+            //     position: 0;
+            //     top: 0;
+            //     background: #3a3053;
+            // }
     
             // NOTIFICACIÓN DE AGREGAR LINK 
             // .notificationLink {

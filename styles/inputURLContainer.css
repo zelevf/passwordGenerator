@@ -7,7 +7,7 @@
 .inputURLSection .inputURLContainer {
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background: #3a3053;
   background-image: url("../images/bg-shorten-desktop.svg");
   background-size: cover;
@@ -18,14 +18,12 @@
   padding: 1vw 4vw;
   justify-content: space-between;
 }
-.inputURLSection .inputURLContainer .inputURLShorten {
+.inputURLSection .inputURLContainer .URLcontainer {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin: 0vw;
-  padding: 0vw;
 }
-.inputURLSection .inputURLContainer .inputURLShorten .inputURL {
+.inputURLSection .inputURLContainer .URLcontainer .inputURL {
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -40,16 +38,24 @@
   border-radius: 15px;
   border: 3px solid #3a3053;
 }
-.inputURLSection .inputURLContainer .inputURLShorten .inputURL::-moz-placeholder {
+.inputURLSection .inputURLContainer .URLcontainer .inputURL::-moz-placeholder {
   color: #a6a6a8;
 }
-.inputURLSection .inputURLContainer .inputURLShorten .inputURL::placeholder {
+.inputURLSection .inputURLContainer .URLcontainer .inputURL::placeholder {
   color: #a6a6a8;
 }
-.inputURLSection .inputURLContainer .inputURLShorten .inputURL {
-  border-color: #f56366;
+.inputURLSection .inputURLContainer .URLcontainer .notificationLink {
+  position: absolute;
+  bottom: 0;
+  margin-left: 0.5vw;
+  margin-bottom: 1vw;
+  color: #f56366;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  height: auto;
 }
-.inputURLSection .inputURLContainer .inputURLShorten .buttonURL {
+.inputURLSection .inputURLContainer .buttonURL {
   background: hsl(180, 66%, 49%);
   color: #ffffff;
   width: 19%;
@@ -62,27 +68,9 @@
   transition: 0.2s;
   cursor: pointer;
 }
-.inputURLSection .inputURLContainer .inputURLShorten .buttonURL:hover {
+.inputURLSection .inputURLContainer .buttonURL:hover {
   background: #9ce2e2;
   transition: 0.2s;
-}
-.inputURLSection .inputURLContainer .svgImage {
-  width: 100%;
-  height: auto;
-  position: 0;
-  top: 0;
-  background: #3a3053;
-}
-.inputURLSection .inputURLContainer .notificationLink {
-  position: absolute;
-  bottom: 0;
-  margin-left: 0.5vw;
-  margin-bottom: 1vw;
-  color: #f56366;
-  font-size: 14px;
-  font-weight: 300;
-  font-style: italic;
-  height: auto;
 }
 .inputURLSection .linksContainer {
   display: flex;
