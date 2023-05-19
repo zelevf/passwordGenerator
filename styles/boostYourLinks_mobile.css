@@ -1,0 +1,15 @@
+@media (max-width: 550px) {
+  .boostYourLinks {
+    padding: 30vw 0vw;
+  }
+  .boostYourLinks .boostYourLinksTitle {
+    margin-bottom: 5vw;
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .boostYourLinks .boostYourLinksButton {
+    width: 54vw;
+    padding: 4vw 0vw;
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=boostYourLinks_mobile.css.map */
