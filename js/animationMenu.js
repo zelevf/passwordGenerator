@@ -1,7 +1,5 @@
-
-
-document.querySelector(".barsMenu").addEventListener('click', animateMenu);
-let menu = document.querySelector(".menuOptions");
+// ANIMACIÓN DE BARRAS 
+document.querySelector(".barsMenu").addEventListener('click', animateOptions);
 
 let bar1 = document.querySelector(".lineBar1");
 let bar2 = document.querySelector(".lineBar2");
@@ -10,98 +8,37 @@ let bar3 = document.querySelector(".lineBar3");
 function animateMenu() {
     bar1.classList.toggle("lineBar1active")
     bar2.classList.toggle("lineBar2active")
-    bar3.classList.toggle("lineBar3active")
-    animateOptions();
+    bar3.classList.toggle("lineBar3active")   
 }
+
+
+
+// VARIABLES 
+let menuItemsContainer = document.querySelector(".menuItemsContainer");
+let menuOptions = document.querySelector(".menuOptions");
+let menuContainerLogin = document.querySelector(".menuContainerLogin");
+let ancho = window.innerWidth;
 
 
 function animateOptions() {
-    let ancho = window.innerWidth;
 
-    if (ancho > 540) {
-        if(!element) {
-            enableScroll();
-        } else {
-            const socialContainer = document.querySelector('.socialNetworkMenu');
-            socialContainer.remove();
-            menu.style.display = 'none';
-        }
+    if (menuItemsContainer.classList.contains('menuMobile') == true) {
+        menuItemsContainer.classList.remove("menuMobile");
+        menuOptions.style.display = 'none';
+        menuContainerLogin.style.display = 'none';
+        menuItemsContainer.style.display = 'none';
+        animateMenu();
+        enableScroll();
     } else {
-        
-        let element = document.querySelector(".socialNetworkMenu")
-
-        if(!element) {
-            disableScroll();
-            menu.style.display = 'flex';
-
-            const socialNetworkMenu = document.createElement('li');
-            socialNetworkMenu.classList.add('socialNetworkMenu');
-            socialNetworkMenu.id = "socialNetworkMenu";
-
-            const linkLinkedin = document.createElement('a');
-            linkLinkedin.href = "https://www.linkedin.com/in/fernandoveleze/";
-            linkLinkedin.target = "_blank";
-            linkLinkedin.classList.add('socialNetworkLink');
-            const linkedinImage = document.createElement('img');
-            linkedinImage.src = '../images/header/linkedin.png';
-            linkedinImage.alt = 'Go to Fernando Velez LinkedIn';
-            linkedinImage.classList.add('socialNetworkItem');
-
-            const linkGithub = document.createElement('a');
-            linkGithub.href = "https://github.com/zelevf";
-            linkGithub.target = "_blank";
-            linkGithub.classList.add('socialNetworkLink');
-            const githubImage = document.createElement('img');
-            githubImage.src = "../images/header/github.png";
-            githubImage.alt = 'Go to Fernando Velez GitHub';
-            githubImage.classList.add('socialNetworkItem');
-
-            const linkFrontendmentor = document.createElement('a');
-            linkFrontendmentor.href = "https://www.frontendmentor.io/profile/zelevf";
-            linkFrontendmentor.target = "_blank";
-            linkFrontendmentor.classList.add('socialNetworkLink');
-            const frontendmentorImage = document.createElement('img');
-            frontendmentorImage.src = '../images/header/frontend-mentor-logo.png';
-            frontendmentorImage.alt = 'Go to Fernando Velez Frontend Mentor profile';
-            frontendmentorImage.classList.add('socialNetworkItem');
-
-
-
-            menu.appendChild(socialNetworkMenu);
-
-            socialNetworkMenu.appendChild(linkLinkedin);
-            linkLinkedin.appendChild(linkedinImage);
-
-            socialNetworkMenu.appendChild(linkGithub);
-            linkGithub.appendChild(githubImage);
-
-            socialNetworkMenu.appendChild(linkFrontendmentor);
-            linkFrontendmentor.appendChild(frontendmentorImage);
-        } else {
-            enableScroll();
-            const socialContainer = document.querySelector('.socialNetworkMenu');
-            socialContainer.remove();
-            menu.style.display = 'none';
-        }
+        menuItemsContainer.style.display = 'flex';
+        menuOptions.style.display = 'flex';
+        menuContainerLogin.style.display = 'flex';
+        menuItemsContainer.classList.add("menuMobile")
+        animateMenu();
+        disableScroll();
     }
+
 }
-
-
-document.querySelector(".workExperienceMenu").addEventListener('click', goTo);
-document.querySelector(".projectsMenu").addEventListener('click', goTo);
-document.querySelector(".contactMenu").addEventListener('click', goTo);
-
-function goTo() {
-    enableScroll();
-    animateMenu();
-    const socialContainer = document.querySelector('.socialNetworkMenu');
-    socialContainer.remove();
-    menu.style.display = 'none';
-}
-
-
-
-
 
 
 
@@ -120,58 +57,31 @@ function enableScroll(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// --------------------------- DETECT CHANGE OF THE SCREEN SIZE ------------------------
+// // --------------------------- DETECT CHANGE OF THE SCREEN SIZE ------------------------
 
 window.addEventListener("resize", function(){
     verificarTamanho();
-    let revisarMenu = document.body.contains(document.querySelector(".socialNetworkLink"));
-
-    if (revisarMenu === true) {
-        animateMenu();
-    }
 });
 
 
 function verificarTamanho() {
 
-    if (window.innerWidth > 540) {
+    if (window.innerWidth > 550) {
+        menuOptions.style.display = 'flex';
+        menuContainerLogin.style.display = 'flex';
+        menuItemsContainer.style.display = 'flex';
 
-        let menuDesktop = document.querySelector(".menuOptions");
-        menuDesktop.style.display = 'flex';
-
-        let revisar = document.body.contains(document.querySelector(".socialNetworkLink"));
-
-        if (revisar === true) {
-
-            let borrar = document.querySelector(".socialNetworkMenu")
-            borrar.remove();
-
-            let aparecer = document.querySelector(".menu");
-            aparecer.style.display = 'flex';
-
-            animateMenu()
-        } 
+        if (menuItemsContainer.classList.contains('menuMobile') == true) {
+            animateMenu();
+            menuItemsContainer.classList.remove("menuMobile");
+            enableScroll();
+        }
 
     } else {
-        let menuMobile = document.querySelector(".menuOptions");
-        menuMobile.style.display = 'none';
+        if (menuItemsContainer.classList.contains('menuMobile') != true) {
+            menuOptions.style.display = 'none';
+            menuContainerLogin.style.display = 'none';
+            menuItemsContainer.style.display = 'none';
+        } 
     }
 }
-
-

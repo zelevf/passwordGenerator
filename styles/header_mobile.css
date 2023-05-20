@@ -1,87 +1,52 @@
 @media (max-width: 550px) {
   .navigation {
+    padding: 7vw 0vw;
+  }
+  .navigation .menuItemsContainer {
     display: flex;
-    flex-direction: row;
-    margin: auto;
-    padding: 10vw 0vw;
-    justify-content: space-between;
-    background: #ffffff;
-    width: 80%;
-  }
-  .navigation .logoContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin: 2vw 0vw;
-    padding: 0vw;
-  }
-  .navigation .logoContainer .linkLogo {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-  }
-  .navigation .logoContainer .linkLogo .logoImage {
-    height: 32px;
-  }
-  .navigation .menuContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin: 0vw;
-    padding: 0vw;
-  }
-  .navigation .menuContainer .menuOptions {
     display: none;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin: 0.4vw 0vw;
-  }
-  .navigation .menuContainer .menuOptions .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: auto auto auto 2vw;
-  }
-  .navigation .menuContainer .menuOptions .menu .menuItem {
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    display: flex;
     flex-direction: column;
-    margin: auto 0vw;
-    margin: 0.6vw 1.6vw;
-    background: none;
-    color: #363636;
-    color: #a7a6ac;
-    text-decoration: none;
-    transition: 0.2s;
+    background: #3a3053;
+    width: 90%;
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10vh;
   }
-  .navigation .menuContainer .menuOptions .menu .menuItem:hover {
-    color: #363636;
-    transition: 0.2s;
-  }
-  .navigation .menuContainer .menuOptions .menu .loginOptions {
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    display: flex;
+  .navigation .menuItemsContainer .menuOptions {
     flex-direction: column;
-    margin: auto 0vw;
-    margin: 0.6vw 1.6vw;
-    text-decoration: none;
-    transition: 0.2s;
-    background: hsl(180, 66%, 49%);
-    color: #ffffff;
-    border-radius: 18px;
-    padding: 0.6vw 1.6vw;
+    margin: 8vw 0vw;
+    padding: 0vw;
   }
-  .navigation .menuContainer .menuOptions .menu .loginOptions:hover {
-    background: #9ce2e2;
-    transition: 0.2s;
+  .navigation .menuItemsContainer .menuOptions .menu {
+    margin: auto;
+    width: 100%;
+  }
+  .navigation .menuItemsContainer .menuOptions .menu .menuItem {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 3vw auto;
+    color: #fffdff;
+  }
+  .navigation .menuItemsContainer .menuOptions .menu .menuItem:hover {
+    color: #d6d6d6;
+  }
+  .navigation .menuItemsContainer .menuOptions .menu .loginOptions {
+    font-size: 18px;
+    margin: 3vw auto;
+    border-radius: 20px;
+    padding: 2vw 0vw;
+    width: 100%;
+  }
+  .navigation .menuItemsContainer .menuContainerLogin {
+    display: none;
+    width: 80%;
+    border-top: 1px solid #544a6d;
   }
   .navigation .barsMenu {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 20px;
     display: flex;
     flex-direction: column;
     margin: auto 0vw;
@@ -98,7 +63,7 @@
   }
   .navigation .barsMenu .lineBar1active {
     rotate: 45deg;
-    width: 135%;
+    width: 105%;
     transform-origin: 0px 100%;
     margin-top: -0.5px;
   }
@@ -110,6 +75,6 @@
     rotate: -45deg;
     transform-origin: 0px 100%;
     margin-left: 1.5px;
-    width: 135%;
+    width: 105%;
   }
 }/*# sourceMappingURL=header_mobile.css.map */

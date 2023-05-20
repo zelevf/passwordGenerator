@@ -1,99 +1,63 @@
 @media (max-width: 550px) {
     .navigation {
-        display: flex;
-        flex-direction: row;
-        margin: auto;
-        padding: 10vw 0vw;
-        justify-content: space-between;
-        background: #ffffff; 
-        width: 80%;
-    
-        .logoContainer {
+        padding: 7vw 0vw;
+
+        .menuItemsContainer {
             display: flex;
+            display: none;
             flex-direction: column;
-            justify-content: flex-start;
-            margin: 2vw 0vw;
-            padding: 0vw;
-    
-            .linkLogo {
-                display: flex;
-                flex-direction: column;
-                margin: auto;
-    
-                .logoImage {
-                    height: 32px;
-                }
-            }
-        }
-    
-        .menuContainer {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
-            margin: 0vw;
-            padding: 0vw;
-    
+            background: #3a3053;
+            width: 90%;
+            position: absolute;
+            border-radius: 10px;
+            text-align: center;
+            align-items: center;
+            margin-top: 10vh;
+
             .menuOptions {
-                display: none;
-                flex-direction: row;
-                justify-content: flex-end;
-                margin: .4vw 0vw;
+                // display: flex;
+                flex-direction: column;
+                margin: 8vw 0vw;
+                padding: 0vw;
     
                 .menu {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
-                    margin: auto auto auto 2vw;
+                    // display: flex;
+                    margin: auto;
+                    width: 100%;
                 
                     .menuItem {
-                        font-family: 'Poppins', sans-serif;
-                        font-size: 14px;
+                        font-size: 18px;
                         font-weight: 500;
-                        display: flex;
-                        flex-direction: column;
-                        margin: auto 0vw;
-                        margin: .6vw 1.6vw;
-                        // padding: .6vw 1.6vw;
-                        background: none;
-                        color: #363636;
-                        color: #a7a6ac;
-                        text-decoration: none;
-                        transition: .2s;
+                        margin: 3vw auto;
+                        color: #fffdff;
                     }
     
                     .menuItem:hover {
-                        // background: hsl(180, 66%, 49%);
-                        color: #363636;
-                        transition: .2s;
+                        color: #d6d6d6;
                     }
     
                     .loginOptions {
-                        font-family: 'Poppins', sans-serif;
-                        font-size: 14px;
-                        font-weight: 500;
-                        display: flex;
-                        flex-direction: column;
-                        margin: auto 0vw;
-                        margin: .6vw 1.6vw;
-                        text-decoration: none;
-                        transition: .2s;
-                        background: hsl(180, 66%, 49%);
-                        color: #ffffff;
-                        border-radius: 18px;
-                        padding: .6vw 1.6vw;
-                    }
-    
-                    .loginOptions:hover {
-                        background: #9ce2e2;
-                        transition: .2s;
+                        font-size: 18px;
+                        margin: 3vw auto;
+                        border-radius: 20px;
+                        padding: 2vw 0vw;
+                        width: 100%;
                     }
                 }
             }
+
+            .menuContainerLogin {
+                display: none;
+                width: 80%;
+                border-top: 1px solid #544a6d;
+            }
+
+
         }
     
         .barsMenu {
-            width: 30px;
-            height: 30px;
+            width: 24px;
+            height: 20px;
             display: flex;
             flex-direction: column;
             margin: auto 0vw;
@@ -111,7 +75,7 @@
     
             .lineBar1active {
                 rotate: (45deg);
-                width: 135%;
+                width: 105%;
                 transform-origin: 0px 100%;
                 margin-top: -.5px;
             }
@@ -125,7 +89,7 @@
                 rotate: (-45deg);
                 transform-origin: 0px 100%;
                 margin-left: 1.5px;
-                width: 135%;
+                width: 105%;
             }
         }
     }    

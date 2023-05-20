@@ -5,22 +5,7 @@
   padding: 0.1vw 3vw;
   justify-content: space-between;
   background: #ffffff;
-  width: 80%;
-}
-.navigation .logoContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin: 2vw 0vw;
-  padding: 0vw;
-}
-.navigation .logoContainer .linkLogo {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-}
-.navigation .logoContainer .linkLogo .logoImage {
-  height: 32px;
+  width: 79%;
 }
 .navigation .menuContainer {
   display: flex;
@@ -29,37 +14,59 @@
   margin: 0vw;
   padding: 0vw;
 }
-.navigation .menuContainer .menuOptions {
+.navigation .menuContainer .logoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 2vw 0vw;
+  padding: 0vw;
+}
+.navigation .menuContainer .logoContainer .linkLogo {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.navigation .menuContainer .logoContainer .linkLogo .logoImage {
+  height: 32px;
+}
+.navigation .menuItemsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navigation .menuItemsContainer .menuOptions {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin: 0.4vw 0vw;
+  margin: 0.4vw 0vw 0.4vw 0vw;
+  padding-left: 1vw;
 }
-.navigation .menuContainer .menuOptions .menu {
+.navigation .menuItemsContainer .menuOptions .menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: auto auto auto 2vw;
 }
-.navigation .menuContainer .menuOptions .menu .menuItem {
+.navigation .menuItemsContainer .menuOptions .menu .menuItem {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   display: flex;
   flex-direction: column;
   margin: auto 0vw;
-  margin: 0.6vw 1.6vw;
+  margin: 0.6vw 0.5vw;
   background: none;
   color: #363636;
   color: #a7a6ac;
   text-decoration: none;
   transition: 0.2s;
 }
-.navigation .menuContainer .menuOptions .menu .menuItem:hover {
+.navigation .menuItemsContainer .menuOptions .menu .menuItem:hover {
   color: #363636;
   transition: 0.2s;
 }
-.navigation .menuContainer .menuOptions .menu .loginOptions {
+.navigation .menuItemsContainer .menuOptions .menu .loginOptions {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -74,9 +81,14 @@
   border-radius: 18px;
   padding: 0.6vw 1.6vw;
 }
-.navigation .menuContainer .menuOptions .menu .loginOptions:hover {
+.navigation .menuItemsContainer .menuOptions .menu .loginOptions:hover {
   background: #9ce2e2;
   transition: 0.2s;
+}
+.navigation .menuItemsContainer .menuContainerLogin {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0vw;
 }
 .navigation .barsMenu {
   display: none;
