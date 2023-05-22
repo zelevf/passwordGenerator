@@ -1,8 +1,3 @@
-window.addEventListener("DOMContentLoaded", function(){
-    console.log("La página cargó correctamente");
-});
-
-
 
 // CLICK en Botón 
 document.querySelector(".buttonURL").addEventListener('click', shortenYourLink);
@@ -25,7 +20,6 @@ function shortenYourLink() {
         }
 
 
-        console.log("Agrega un link.")
         inputToAddURL.classList.add('missingLink');
         inputToAddURL.style.borderColor = '#f56366';
 
@@ -35,7 +29,6 @@ function shortenYourLink() {
         inputNotification.appendChild(notificationLink);
         
     } else {
-        console.log(linkToShorten.value)
 
         if (inputToAddURL.classList.contains('missingLink') == true) {
             let notificationLink = document.querySelector(".notificationLink");
@@ -49,7 +42,6 @@ function shortenYourLink() {
         if (`${linkToShorten.value}`.includes('http')) {
 
             if (`${linkToShorten.value}`.includes('9qr.de')) {
-                console.log("Agrega un link válido.")
                 inputToAddURL.classList.add('missingLink');
                 inputToAddURL.style.borderColor = '#f56366';
         
@@ -57,18 +49,12 @@ function shortenYourLink() {
                 notificationLink.classList.add('notificationLink');
                 notificationLink.textContent = "Please add a valid link";
                 inputNotification.appendChild(notificationLink);
-            } else {
-                console.log("Acortar link válido")
-                console.log("Acortar link " + linkToShorten.value)
-    
-    
+            } else {    
     
                 let url = `https://api.shrtco.de/v2/shorten?url=${linkToShorten.value}`;
-                console.log(url)
     
                 if (inputToAddURL.classList.contains('missingLink') == true) {
     
-                    console.log("Sí tiene la clase");
                     inputToAddURL.style.borderColor = '#3a3053';
         
                     let notificationLink = document.querySelector(".notificationLink");
@@ -82,7 +68,6 @@ function shortenYourLink() {
                 }).then(res => res.json())
                 .catch(error => console.error('Error:', error))
                 .then(response => {
-                    console.log(response)
                     showLinks(response);
                 });
     
@@ -98,7 +83,6 @@ function shortenYourLink() {
                     const linkResult = document.createElement('div');
                     linkResult.classList.add('linkResult');
                     linkResult.id = links.result.code;
-                    console.log(linkResult.id)
     
                     const linkShortened = document.createElement('p');
                     linkShortened.classList.add('linkShortened');
@@ -126,10 +110,6 @@ function shortenYourLink() {
     
                         let element;
                         element = document.getElementById(`${linkResult.id}`);
-                        console.log(element)
-    
-                        console.log("Copiamos el link");
-                        // console.log(newLink)
     
                         // Selecciona el texto que deseas copiar
                         let text = `${links.result.full_short_link2}`;
@@ -137,17 +117,12 @@ function shortenYourLink() {
                         // Utiliza la API del portapapeles para copiar el texto
                         navigator.clipboard.writeText(text)
                         .then(function() {
-                            console.log(links.result.full_short_link);
-                            console.log(element.id);
     
                             if (links.result.code == element.id) {
-                                console.log("Texto copiado al portapapeles");
                                 copyLink.classList.remove("copyLink");
                                 copyLink.classList.add("copiedLink")
                                 copyLink.textContent = `Copied!`;
-                            } else {
-                                console.log('No es igual')
-                            }
+                            } 
     
                         })
                         .catch(function(error) {
@@ -171,7 +146,6 @@ function shortenYourLink() {
             }
 
             
-            console.log("Agrega un link válido.")
             inputToAddURL.classList.add('missingLink');
             inputToAddURL.style.borderColor = '#f56366';
     

@@ -35,7 +35,6 @@
     }
 
     .menuItemsContainer {
-        // background: red;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -62,16 +61,13 @@
                     flex-direction: column;
                     margin: auto 0vw;
                     margin: .6vw .5vw;
-                    // padding: .6vw 1.6vw;
                     background: none;
-                    color: #363636;
                     color: #a7a6ac;
                     text-decoration: none;
                     transition: .2s;
                 }
 
                 .menuItem:hover {
-                    // background: hsl(180, 66%, 49%);
                     color: #363636;
                     transition: .2s;
                 }
@@ -82,7 +78,6 @@
                     font-weight: 500;
                     display: flex;
                     flex-direction: column;
-                    margin: auto 0vw;
                     margin: .6vw 1.6vw;
                     text-decoration: none;
                     transition: .2s;

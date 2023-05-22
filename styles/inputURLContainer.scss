@@ -35,7 +35,6 @@
                 font-size: 20px;
                 font-weight: 500;
                 width: 100%;
-                // width: auto;
                 color: #a09fa4;
                 border-radius: 15px;
                 border: 3px solid #3a3053;
@@ -45,17 +44,6 @@
             .inputURL::placeholder {
                 color: #a6a6a8;
             }
-    
-            // BORDE CUANDO PIDE AGREGAR LINK 
-            // .inputURL {
-            //     border-color: #f56366;
-            // }
-    
-            // PLACEHOLDER CUANDO DEBES AGREGAR LINK 
-            // .inputURL::placeholder {
-            //     color: #f56366;
-            // }
-
 
             // NOTIFICACIÓN DE AGREGAR LINK 
             .notificationLink {
@@ -90,10 +78,6 @@
             background: #9ce2e2;
             transition: .2s;
         }
-        
-
-
-
     }
 
 
@@ -171,4 +155,3 @@
         }
     }
 }
-
