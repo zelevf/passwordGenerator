@@ -226,6 +226,10 @@
                 border-radius: 6px;
                 padding: 1vw 0vw;
                 justify-content: space-between;
+                // overflow-wrap: break-word;
+                // overflow-wrap: normal;
+                overflow: hidden;
+                // word-wrap: break-word;
     
                 .linkToShorten {
                     display: flex;
@@ -236,14 +240,22 @@
                     font-weight: 500;
 
                     padding: 2vw 0vw;
-                    width: 100%;
+                    width: 76.25vw;
+                    overflow: hidden;
+
+
+                    // overflow-wrap: break-word;
+                    // overflow-wrap: normal;
+                    // word-wrap: break-word;
                 }
     
                 .linkResult {
                     display: flex;
                     flex-direction: column;
                     border-top: 1.5px solid #f0f1f6;
-                    width: auto;
+                    width: 100%;
+                    // overflow-wrap: break-word;
+                    // overflow-wrap: normal;
 
     
                     .linkShortened {
@@ -253,6 +265,9 @@
                         color: #2bd1d1;
                         font-size: 16px;
                         font-weight: 500;
+                        width: 100%;
+                        // overflow-wrap: break-word;
+                        // overflow-wrap: normal;
                     }
     
                     .copyLink {
